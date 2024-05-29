@@ -1,0 +1,17 @@
+body { display:flex;
+        flex:auto;
+    flex-wrap: wrap;
+    height:800px;
+    width:800px;}
+
+.horiz { background-color: blue;
+         width:49px;
+         height: 49px;
+         border: 1px solid black;
+        }
+
+.vert { background-color: red;
+         flex-direction:row;
+        width:49px;
+        height: 49px;
+        border: 1px solid black;}
