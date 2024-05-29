@@ -6,7 +6,7 @@ for (var i = 0; i <= 15; i++) {
     horiz.classList.add("horiz");
     horizontal.push(horiz);
 
-for (var j= 0; j< 14; j++){
+for (var j= 0; j< 15; j++){
     var vert = document.body.appendChild(document.createElement('div'));
     vert.classList.add("vert");
     horizontal.push(vert);

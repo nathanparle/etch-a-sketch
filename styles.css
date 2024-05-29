@@ -1,17 +1,17 @@
 body { display:flex;
         flex:auto;
     flex-wrap: wrap;
-    height:800px;
-    width:800px;}
+    height:624px;
+    width:624px;}
 
 .horiz { 
-         width:49px;
-         height: 49px;
-         border: 1px solid rgb(141, 141, 141);
+         width:37px;
+         height: 37px;
+         border: 1px solid rgba(141, 141, 141, 0.425);
         }
 
 .vert { 
          flex-direction:row;
-        width:49px;
-        height: 49px;
-        border: 1px solid rgb(141, 141, 141);}
+        width:37px;
+        height: 37px;
+        border: 1px solid rgb(141, 141, 141, 0.425);}
