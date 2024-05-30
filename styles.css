@@ -16,8 +16,7 @@ body { display:flex;
     border:0.1px solid maroon;
     flex-direction: column;
     overflow: hidden;
-       
-
+ 
 }
 .row{
     flex-direction: row;
