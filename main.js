@@ -62,7 +62,7 @@ clear.addEventListener('click', () => { while (container.firstChild)
 });
 
 
-build(16);
+build(x);
 
 
 
