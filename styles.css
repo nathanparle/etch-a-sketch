@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
         align-items: center;
-        background-color: rgb(65, 123, 231);}
+        background-color: hsl(218, 93%, 73%);}
 
 .container { 
     display: flex;

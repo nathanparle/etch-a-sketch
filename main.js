@@ -9,8 +9,8 @@ var isWhite = false;
 function choice(){
     while (container.firstChild) 
         { container.removeChild(container.firstChild);}
-    x = prompt("Enter the rows and columns required, between 8 and 100 : ");
-    if( x > 100 || x < 8){ alert("Between 8 and 100 please : "); choice();}
+    x = prompt("Enter the rows and columns required, between 2 and 100 : ");
+    if( x > 100 || x < 2){ alert("Between 2 and 100 please : "); choice();}
     else { build(x);}
 }
 const  build = (x) => {
